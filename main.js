@@ -1,3 +1,4 @@
+//  convert integer into phonetic expression
 const getPhoneticExpression = (number) => {
     //dict to convert integer to string
     const dict = new Map();
@@ -22,6 +23,7 @@ const getPhoneticExpression = (number) => {
     return output;
   }
   
+  //   prints the phonetic expression of each value in the array of integers
   const printPhoneticExpressions = (expression) => {
     let output = '';
   
